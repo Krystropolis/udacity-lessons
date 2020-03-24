@@ -8,8 +8,8 @@ sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 sys.stderr = codecs.getwriter('utf8')(sys.stderr)
 
 # constants
-client_id = "W5Y0EX4R4I1UXVLZFSEANV0BVB0XUUQJQENUGO5FPYQE4CPN"
-client_secret = "YIQAX122WRB5TTL2RFCZN2DVGP2LJEV2IPZFWCQOHBWTYIRY"
+client_id = "yourclientid"
+client_secret = "yourclientsecret"
 
 def findARestaurant(mealType,location):
 	coordinates = getGeocodeLocation(location);
